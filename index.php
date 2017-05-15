@@ -1,8 +1,10 @@
 <!-- Curso Ecommerce PHP MySQL
-https://www.youtube.com/watch?v=DVO99vc1YRM&index=1&list=PLB_Wd4-5SGAbYqmJ4OVF24g0lNFnUap-W -->
+https://www.youtube.com/watch?v=DVO99vc1YRM&index=1&list=PLB_Wd4-5SGAbYqmJ4OVF24g0lNFnUap-W
+-->
 
-<!-- PAREI AQUI
-https://www.youtube.com/watch?v=A44UkqGbEcg&list=PLB_Wd4-5SGAbYqmJ4OVF24g0lNFnUap-W&index=5 -->
+<!-- PAREI AQUI 7
+https://www.youtube.com/watch?v=s7k7ikaa9D0&index=7&list=PLB_Wd4-5SGAbYqmJ4OVF24g0lNFnUap-W
+-->
 
 <!DOCTYPE html>
 <html>
@@ -52,8 +54,31 @@ https://www.youtube.com/watch?v=A44UkqGbEcg&list=PLB_Wd4-5SGAbYqmJ4OVF24g0lNFnUa
 
           <ul class="nav navbar-nav navbar-right">
             <li>
-              <a href="#"><span class="glyphicon glyphicon-shopping-cart"></span>Cart
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                <span class="glyphicon glyphicon-shopping-cart"></span>
+                Cart <span class="badge">0</span>
               </a>
+
+        <!-- DROPDOWN CART   -->
+              <div class="dropdown-menu" style="width:400px;">
+                <div class="panel panel-success">
+                  <div class="panel-heading">
+                    <div class="row">
+
+                      <div class="col-md-3">Sl.No</div>
+                      <div class="col-md-3">Product Image</div>
+                      <div class="col-md-3">Product Name</div>
+                      <div class="col-md-3">Price in $</div>
+
+                    </div><!-- END ROW                       -->
+                  </div><!-- END HEADING -->
+                </div><!-- END PAINEL SUCCESS -->
+                  <div class="panel-body"></div>
+                  <div class="panel-footer"></div>
+              </div><!-- END DROPDOWN MENU -->
+        <!-- END DROPDOWN CART -->
+
+
             </li>
             <li>
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">
@@ -88,7 +113,7 @@ https://www.youtube.com/watch?v=A44UkqGbEcg&list=PLB_Wd4-5SGAbYqmJ4OVF24g0lNFnUa
               </a>
             </li>
 
-      </div>
+      </div><!-- END container-fluid -->
 
     </div>
     <!-- END MENU -->
@@ -133,7 +158,7 @@ https://www.youtube.com/watch?v=A44UkqGbEcg&list=PLB_Wd4-5SGAbYqmJ4OVF24g0lNFnUa
 
                     <!-- IMG   -->
                     <div class="panel-body">
-                      <img src="product_images/s8.png" alt="">
+                      <img src="product_images/images.jpg" alt="">
                     </div>
 
                     <!-- PRICE BUTTON -->
